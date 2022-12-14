@@ -53,23 +53,22 @@ const Modal = ({
 
     return (
         <div className="modal">
-            <div className="cerrar-modal">
-                
-
-            <a href="/">
-                    <input type="submit" value="Cerrar" />  
-                    </a>
-
-
             
+            <div className={`formularios`}>
                 
-              
+
+                <a href="/">
+                    <input type="submit" value="Cerrar" />  
+                </a>
             </div>
 
             <form 
                 onSubmit={handleSubmit}
                 className={`formulario ${animarModal ? "animar" : 'cerrar'}`}
             >
+                
+
+            
                 <legend>{gastoEditar.nombre ? 'Editar Gasto' : 'Nuevo Gasto'}</legend>
                 {mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
 
