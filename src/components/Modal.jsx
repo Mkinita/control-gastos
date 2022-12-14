@@ -54,11 +54,17 @@ const Modal = ({
     return (
         <div className="modal">
             <div className="cerrar-modal">
-                <img 
+                {/* <img 
+                    
                     src={CerrarBtn}
                     alt="cerrar modal"
-                    onClick={ocultarModal}
-                />
+                    
+                    // onClick={ocultarModal}
+                /> */}
+
+            <a href="/"><img src={CerrarBtn}
+                    alt="cerrar modal" /></a>
+                
             </div>
 
             <form 
