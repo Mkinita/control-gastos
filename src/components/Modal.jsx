@@ -63,8 +63,14 @@ const Modal = ({
                 /> */}
 
             <a href="/"><img src={CerrarBtn}
-                    alt="cerrar modal" /></a>
+                    alt="cerrar modal" />
+                    <input type="submit" value="Cerrar" />  
+                    </a>
+
+
+            <button>cerrar</button>
                 
+              
             </div>
 
             <form 
