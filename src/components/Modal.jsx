@@ -54,21 +54,10 @@ const Modal = ({
     return (
         <div className="modal">
             <div className="cerrar-modal">
-                {/* <img 
-                    
-                    src={CerrarBtn}
-                    alt="cerrar modal"
-                    
-                    // onClick={ocultarModal}
-                /> */}
+                
 
             <a href="/">
-                    <input type="submit" value=""/>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <rect x="4" y="4" width="16" height="16" rx="2" />
-                        <path d="M10 10l4 4m0 -4l-4 4" />
-                    </svg>  
+                    <input type="submit" value="Cerrar" />  
                     </a>
 
 
