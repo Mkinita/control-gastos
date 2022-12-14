@@ -69,9 +69,11 @@ const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
                                 Fecha: {''}
                                 <span>{formatearFecha(fecha)}</span>
                             </p>
+                            <p className="cantidad-gasto">${cantidad}</p>
                         </div>
+                        
                     </div>
-                    <p className="cantidad-gasto">${cantidad}</p>
+                    
                 </div>
             </SwipeableListItem>
         </SwipeableList>
